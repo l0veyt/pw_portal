@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- router-view标签：通过访问的路由来嵌入相对应的vue中template中的HTML代码 -->
     <router-view/>
   </div>
 </template>

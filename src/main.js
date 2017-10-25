@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// 全局引入semantic-ui框架的css文件
+import '../node_modules/semantic-ui-css/semantic.min.css'
 
 Vue.config.productionTip = false
 

@@ -9,6 +9,7 @@ function resolve (dir) {
 }
 
 module.exports = {
+  // 入口文件
   entry: {
     app: './src/main.js'
   },
@@ -20,7 +21,9 @@ module.exports = {
       : config.dev.assetsPublicPath
   },
   resolve: {
+    // 支持引入的文件扩展名
     extensions: ['.js', '.vue', '.json'],
+    // 设置引入的模块的别名
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
